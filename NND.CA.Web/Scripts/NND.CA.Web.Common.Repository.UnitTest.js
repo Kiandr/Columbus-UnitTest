@@ -7,6 +7,15 @@ test("will add 5 to number", function () {
 });
 test("UnitTest", function() {
     var res = unitTest(2);
-    equalTo(res, 10);
+    equal(res, 10, "Should return 10");
 
 });
+
+// JasminFrameWorkTesting
+describe("JasminFramework",function() {
+	it("something", function(){
+		expect(hellowWorld().toEqual('Hello World'));
+	});
+		
+        
+    });
